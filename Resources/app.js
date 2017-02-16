@@ -12,12 +12,13 @@
 	    launchAppCount = 0;	//起動回数
 	    Ti.App.Properties.setBool("shareAndReviewDoneFlg", false);	
 	}
-	var eulaDone = Ti.App.Properties.getBool("eulaDone");
-    // 利用規約表示
-	if (!eulaDone) {
-		openEULA();
+	if (util.isiOS()) {
+		var eulaDone = Ti.App.Properties.getBool("eulaDone");
+	    // 利用規約表示
+		if (!eulaDone) {
+			openEULA();
+		}
 	}
-
 	Ti.App.Properties.setInt("LaunchAppCount", ++launchAppCount);
 	Ti.API.info('アプリ起動 : ' + launchAppCount);
 	// ユーザーID保存
@@ -90,7 +91,6 @@
                 Ti.App.jcategory = json[0].jcategory;    //Jリーグカテゴリ
                 Ti.App.currentStage = json[0].currentStage;    //J1現在ステージ
                 Ti.App.aclFlg = json[0].aclFlg;    //ALC出場フラグ(true/false)
-                Ti.App.isOtherTeamNewsFeatureEnable = json[0].isOtherTeamNewsFeatureEnable;	//他チーム情報表示機能の有効フラグ
                 Ti.App.adType = json[0].adType;    //広告タイプ(1:アイコン、2:バナー)
                 if(json[0].message){
                     message = json[0].message;

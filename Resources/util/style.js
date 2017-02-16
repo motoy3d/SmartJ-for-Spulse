@@ -114,6 +114,17 @@ exports.style = {
                     top : "2dp",
                     right : "10dp"
                 }
+            },
+            {
+                type: 'Ti.UI.Button',
+                bindId: 'otherTeamBtn',
+                properties: {
+                    backgroundImage: "/images/zoom@2x.png",
+                    width: "32dp",
+                    height: "32dp",
+                    top : "2dp",
+                    left : "10dp"
+                }
             }
         ],
                 
@@ -405,7 +416,8 @@ exports.style = {
             ,backgroundColor: config.color
             ,borderRadius: 8
             ,height: 36
-            ,width: 70
+            ,width: 100
+            ,left: 0
 //            ,top: 5
         },
         jButtonAndroid : {
@@ -415,8 +427,9 @@ exports.style = {
             ,backgroundColor: config.color
             ,borderRadius: 8
             ,height: 36
-            ,width: 70
+            ,width: 100
             ,top: 5
+            ,left: 110
         },
         aclNabiscoButtonAndroid : {
             color: "white"
@@ -428,8 +441,9 @@ exports.style = {
             ,borderRadius: 8
             ,enabled: true
             ,height: 36
-            ,width: 70
+            ,width: 100
             ,top: 5
+            ,left: 220
         }
 	},
 	twitter : {
@@ -570,6 +584,15 @@ exports.style = {
             ,width: "32dp"
             ,top: "8dp"
             ,right: "10dp"
+        },
+        shareButton : {
+            backgroundImage: "/images/share.png"
+//            ,backgroundSelectedImage: "/images/line_icon_grey.png"
+            ,backgroundColor: 'transparent'
+            ,enabled: false
+            ,width: "32dp"
+            ,height: "32dp"
+            ,left: "20dp"
         },
         lineButton : {
             backgroundImage: "/images/line_icon.png"
