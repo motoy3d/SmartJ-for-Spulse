@@ -1,6 +1,6 @@
 android/ATTR_MINIFY=true
 android/ATTR_MINIFY.type=Boolean
-android/ATTR_PROJECT_NAME=SmartJ for Spulse
+android/ATTR_PROJECT_NAME=SmartJ-for-Spulse
 android/ATTR_PROJECT_NAME.type=String
 android/device-id=
 android/device-id.type=String
@@ -12,7 +12,7 @@ android/keystore_alias=motoy3d
 android/keystore_alias.type=String
 android/keystore_password=eita0716
 android/keystore_password.type=String
-android/keystore_path=/Users/motoy3d/Documents/Appcelerator_Studio_Workspace/UrawaRedsMyLife for Android/Android/motoy3d.android.keystore
+android/keystore_path=/Users/motoy3d/Documents/Appcelerator_Studio_Workspace/UrawaRedsMyLife_Android/Android/motoy3d.android.keystore
 android/keystore_path.type=String
 android/recent_output=/Users/motoy3d/Documents/Appcelerator_Studio_Workspace/SmartJ for Spulse/apk
 android/recent_output.type=String
