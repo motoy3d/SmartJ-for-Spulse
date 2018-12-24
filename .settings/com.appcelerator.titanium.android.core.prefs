@@ -1,7 +1,7 @@
-android/ATTR_MINIFY=true
-android/ATTR_MINIFY.type=Boolean
 android/ATTR_PROJECT_NAME=SmartJ-for-Spulse
 android/ATTR_PROJECT_NAME.type=String
+android/abi=x86
+android/abi.type=String
 android/device-id=
 android/device-id.type=String
 android/distribute_path=/Users/motoy3d/Documents/Appcelerator_Studio_Workspace/SmartJ for Spulse/apk
@@ -16,4 +16,6 @@ android/keystore_path=/Users/motoy3d/Documents/Appcelerator_Studio_Workspace/Ura
 android/keystore_path.type=String
 android/recent_output=/Users/motoy3d/Documents/Appcelerator_Studio_Workspace/SmartJ for Spulse/apk
 android/recent_output.type=String
+android/sdk_version=Android 9
+android/sdk_version.type=String
 eclipse.preferences.version=1
